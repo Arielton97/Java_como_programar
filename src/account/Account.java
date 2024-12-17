@@ -1,27 +1,45 @@
 package account;// account.Account.java
 // Classe account.Account que contém uma variável de instância name
-// e métodos para configurar e obter o seu valo
+// e métodos para configurar e obter o seu valor
 
 public class Account
 {
     private String name; // variável de instância
+    private double balance; // variável de instância
     
-    // o construtor inicializa name com nome do parâmetro
-    public Account(String name) // o nome do construtor é o nome da classe
+    // o construtor de Account que recebe dois parâmetros
+    public Account(String name, double balance)
+    {
+        this.name = name; // atribui name à variável de instância name
+
+        // valida que o balance é maior que 0.0; se não for,
+        // a variável de instância balance mantém seu valor inicial padrão de 0.0
+        if (balance > 0.0) // se o saldo for válido
+            this.balance = balance; // o atribui à variável de instância balance
+    }
+
+    // method que deposita (adiciona) apenas uma quantia válida no saldo
+    public void deposit(double depositAmount)
+    {
+        if (depositAmount > 0.0) // se depositAmount for válido
+            balance = balance + depositAmount; // o adiciona ao saldo
+    }
+
+    // method retorna o saldo da conta
+    public double getBalance()
+    {
+        return balance;
+    }
+
+    // method que define o nome
+    public void setName(String name)
     {
         this.name = name;
     }
 
-    // method para definir o nome do objeto
-    public void setName(String name)
-    {
-        this.name = name; // armazena o nome
-    }
-
-    // method para recuperar o nome do objeto
+    // method que retorna o nome
     public String getName()
     {
         return name; // a palavra-chave return retorna o valor de name
-                    // para o method chamador
-    }
+    } // fim do method chamador
 } // fim da classe Account
