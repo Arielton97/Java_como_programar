@@ -15,4 +15,3 @@ public class AccountTest
         System.out.printf("account2 name is: %s%n", account2.getName());
     }
 } // fim da classe AccountTest
-// alteração
