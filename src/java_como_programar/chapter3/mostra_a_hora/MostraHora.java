@@ -1,4 +1,4 @@
-package mostra_a_hora;
+package java_como_programar.chapter3.mostra_a_hora;
 
 import java.time.Instant;
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package account;// account.AccountTest.java
+package java_como_programar.chapter3.account;// java_como_programar.chapter3.account.AccountTest.java
 // Usando o construtor de Account para inicializar a instância name
 // variável no momento em que cada objeto Account é criado.
 import java.util.Scanner;

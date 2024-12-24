@@ -1,0 +1,7 @@
+  Operador  | Descrição
+    ==      | Igual / Equals
+    !=      | Diferente de
+    >       | Maior que
+    <       | Menor que
+    >=      | Maior ou igual a
+    <=      | Menor ou igaul a

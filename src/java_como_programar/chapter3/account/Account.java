@@ -1,5 +1,5 @@
-package account;// account.Account.java
-// Classe account.Account que contém uma variável de instância name
+package java_como_programar.chapter3.account;// java_como_programar.chapter3.account.Account.java
+// Classe java_como_programar.chapter3.account.Account que contém uma variável de instância name
 // e métodos para configurar e obter o seu valor
 
 public class Account
