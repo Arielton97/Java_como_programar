@@ -1,4 +1,4 @@
-package udemy.lacos_repeticao;
+package udemy.controle;
 
 public class RepeticaoFor {
     /*
